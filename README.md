@@ -1,0 +1,3 @@
+# AWS Aurora Serverless and AWS Secrets Manager
+
+This is a terraform module that includes in a VPC an RDS Database Cluster with a MySQL Aurora Serverless engine with Api Data enabled and a Bastion Host of the t3.nano type, each one with its own security group. Besides that, it includes a secret from AWS Secrets Manager for the database credentials and the database name as a parameter on AWS SSM Parameter Store. 

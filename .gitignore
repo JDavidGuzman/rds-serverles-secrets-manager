@@ -1,0 +1,6 @@
+key
+*tfstate*
+*tfvars
+*lock*
+crash.log
+.terraform
